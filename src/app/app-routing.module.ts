@@ -6,6 +6,7 @@ import { ClientesComponent } from './components/administrador/clientes/clientes.
 import { EntrenadorComponent } from './components/administrador/entrenador/entrenador.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: 'inicio', },
   { path: 'inicio', component: BodyComponent },
   { path: 'administrador', children: [
     { path: 'autenticacion', component: LoginComponent },
