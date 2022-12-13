@@ -1,0 +1,22 @@
+.card {
+    max-width: 90%;
+    position: absolute;
+    border: none;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+span {
+    padding: 5px; 
+}
+
+.status-activo {
+    background-color: #c8e6c9;
+    color: #256029;
+}
+
+.status-inactivo {
+    background-color: #ffcdd2;
+    color: #c63737;
+}
